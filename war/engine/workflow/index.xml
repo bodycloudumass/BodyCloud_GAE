@@ -1,0 +1,11 @@
+<index>
+	<item>
+		<reference href="ecg.xml"/>
+	</item>
+	<item>
+		<reference href="accel.xml"/>
+	</item>
+	<item>
+		<reference href="position.xml"/>
+	</item>
+</index>

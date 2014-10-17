@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<item>
+		<reference href="london-marathon.xml"/>
+	</item>
+	<item>
+		<reference href="london-marathon-2ch.xml"/>
+	</item>
+	<item>
+		<reference href="umass-test-raw3.xml"/>
+	</item>
+	<item>
+	    <reference href="umass-test-feature.xml"/>
+	</item>
+	<item>
+	    <reference href="umass-test-position.xml"/>
+	</item>
+</index>

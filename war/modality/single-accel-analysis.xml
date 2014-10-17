@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modality>
+	<init-action>
+		<uri>/group/umass-test-raw3/contributors</uri>
+		<method>GET</method>
+	</init-action>
+	<action>
+		<uri>/engine/workflow/accel</uri>
+		<method>POST</method>
+		<parameter>
+			<name>sourceUser</name>
+			<reference xpath="//users/user" />
+		</parameter>
+		<parameter>
+			<name>sourceGroup</name>
+			<value>umass-test-raw3</value>
+		</parameter>
+		<repeat>false</repeat>
+	</action>
+	<outputSpecification>
+		<column>
+			<name>x</name>
+			<type>DOUBLE</type>
+		</column>
+		<column>
+			<name>y</name>
+			<type>DOUBLE</type>
+		</column>
+		<column>
+			<name>z</name>
+			<type>DOUBLE</type>
+		</column>
+		<view>/view/tachogram.xml</view>
+	</outputSpecification>
+</modality>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modality>
+	<inputSpecification>
+		<column>
+			<name>position</name>
+			<type>DOUBLE</type>
+			<source>HEARTBEAT</source>
+		</column>
+	</inputSpecification>
+	<init-action>
+		<uri>/group/umass-test-position/data</uri>
+		<method>DELETE</method>
+	</init-action>
+	<action>
+		<uri>/group/umass-test-position/data</uri>
+		<method>PUT</method>
+		<repeat>false</repeat>
+		<trigger after="10" />
+	</action>
+</modality>
